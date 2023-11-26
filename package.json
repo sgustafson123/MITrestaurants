@@ -1,35 +1,30 @@
 {
-  "name": "backend",
-  "private": true,
+  "name": "restaurants",
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "private": true,
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.15.4",
-    "@strapi/plugin-users-permissions": "4.15.4",
-    "@strapi/plugin-i18n": "4.15.4",
-    "@strapi/plugin-cloud": "4.15.4",
-    "better-sqlite3": "8.6.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+    "@apollo/client": "^3.2.4",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.10.0",
+    "axios": "^1.6.2",
+    "graphql": "^16.8.1",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^2.2.1",
+    "next": "^14.0.3",
+    "npm": "^10.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "reactstrap": "^8.6.0",
+    "strapi": "^3.6.11"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "d510d147-9c3f-4474-a28b-0d02ac27315f"
-  },
-  "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  "description": "Exercise05 is full Shopping Cart with Stripe Billing",
+  "main": "index.js",
+  "author": "jrw@mit.edu",
+  "license": "MIT",
+  "keywords": []
 }
